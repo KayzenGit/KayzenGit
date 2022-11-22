@@ -9,5 +9,6 @@ import { Component, ViewEncapsulation } from '@angular/core';
 export class AppComponent {
   title = 'my-app is Running Now!!';
   headerTitle = 'My Name is Yunes Masoomi';
+  count = 10 ;
   picPath='./favicon.ico';
 }
