@@ -1,0 +1,24 @@
+<button
+      [id]="TrueID"
+      type="button"
+      [disabled]="canClick"
+      (click)="OnEditableClick()"
+>
+Salam I am a Student!
+</button>
+<p [id]="sayHelloId">
+</p>
+<p>
+  {{fontColor}}
+</p>
+
+<div *ngIf="canClick; else noEdit">
+  <p>You Can Edit!</p>
+</div>
+<ng-template #noEdit>
+  <p>The Paragraph Read Only!</p>
+</ng-template>
+
+<p [contentEditable]="canClick"> {{Message}}</p>
+
+

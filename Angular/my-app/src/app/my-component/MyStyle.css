@@ -1,0 +1,17 @@
+button {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+  background-color: cornsilk;
+}
+
+.buttonTrue
+{
+  background-color:green;
+
+}
+.buttonFalse
+{
+  background-color:red;
+
+}
+
