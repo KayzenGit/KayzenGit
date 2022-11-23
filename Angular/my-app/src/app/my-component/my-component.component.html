@@ -6,13 +6,14 @@
 >
 Salam I am a Student!
 </button>
+
 <p [id]="sayHelloId">
 </p>
-<p>
+<p >
   {{fontColor}}
 </p>
 
-<div *ngIf="canClick; else noEdit">
+<div *ngIf="canClick;else noEdit">
   <p>You Can Edit!</p>
 </div>
 <ng-template #noEdit>
