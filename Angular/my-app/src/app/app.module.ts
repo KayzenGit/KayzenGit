@@ -15,6 +15,6 @@ import { MyComponentComponent } from './my-component/my-component.component';
     AppRoutingModule
   ],
   providers: [],
-  bootstrap: [MyComponentComponent]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
