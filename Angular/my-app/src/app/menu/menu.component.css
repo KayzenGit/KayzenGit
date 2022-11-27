@@ -1,21 +1,33 @@
 ul {
   list-style-type: none;
-  display:inline-table;
+  margin: 50;
+  padding: 0;
+  width: 100%;
+  background-color: #f1f1f1;
+  display : block;
+
+}
+li
+{
+  list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 200px;
+  width: 100%;
   background-color: #f1f1f1;
+  display : inline;
+
 }
 
 li a {
-  display: block;
-  color: #000;
+  color: rgb(0, 0, 0);
   padding: 8px 16px;
-  text-decoration: none;
+  text-decoration: solid;
+  background-color: #f1f1f1;
+
 }
 
 /* Change the link color on hover */
 li a:hover {
-  background-color: #555;
+  background-color: rgb(241, 126, 126);
   color: white;
 }
