@@ -1,11 +1,11 @@
 import { Component, ViewEncapsulation } from '@angular/core';
 import { CountCalculateService } from './Services/count-calculate.service';
 
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.sass'],
-  encapsulation:ViewEncapsulation.None
 })
 export class AppComponent {
   ButtonText = "CountCalculate";
@@ -20,3 +20,4 @@ export class AppComponent {
     this.count++;
   }
 }
+
