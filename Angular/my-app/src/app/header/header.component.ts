@@ -1,4 +1,3 @@
-import { formatDate } from '@angular/common';
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,6 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.sass']
 })
 export class HeaderComponent {
-title = 'My Header Works!';
-nowDate = formatDate(this.t)
+title = 'My Header Works! ';
+nowDate = Date.now.toString();
 }
