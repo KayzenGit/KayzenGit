@@ -1,37 +1,38 @@
 @font-face {
   font-family: 'FarsiFont';
   src: url('../WebFonts/OtherFont/pixelboy-BMitra.woff') format('woff');
+  src: url('../WebFonts/OtherFont/pixelboy-BKoodakBold.woff') format('woff');
   font-weight: 200;
   font-size: 30px;
 }
 ul {
+  display : block;
+
   list-style-type: none;
   display:inline-table;
   margin: 50;
   padding: 0;
   width: 100%;
   background-color: #f1f1f1;
-  display : block;
 
 }
 li
 {
+  display : inline;
+
   list-style-type: none;
   margin: 0;
   padding: 0;
   width: 200px;
-  width: 100%;
   background-color: #f1f1f1;
-  display : inline;
 
 }
 li a {
-  font-family: 'FarsiFont';
   display: inline-block;
-  color: #000;
+
+  font-family: 'FarsiFont';
   color: rgb(0, 0, 0);
   padding: 8px 16px;
-  text-decoration: none;
   text-decoration: solid;
   background-color: #f1f1f1;
 
