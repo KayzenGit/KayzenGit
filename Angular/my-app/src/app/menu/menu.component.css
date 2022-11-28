@@ -1,11 +1,12 @@
+
 ul {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   list-style-type: none;
   margin: 50;
   padding: 0;
   width: 100%;
   background-color: #f1f1f1;
   display : block;
-
 }
 li
 {
@@ -15,17 +16,14 @@ li
   width: 100%;
   background-color: #f1f1f1;
   display : inline;
-
 }
-
 li a {
   color: rgb(0, 0, 0);
   padding: 8px 16px;
   text-decoration: solid;
   background-color: #f1f1f1;
-
+  font-weight: lighter;
 }
-
 /* Change the link color on hover */
 li a:hover {
   background-color: rgb(241, 126, 126);
