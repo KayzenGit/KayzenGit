@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { fafil } from '@fortawesome/';
 
 @Component({
   selector: 'app-menu',
@@ -7,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class MenuComponent {
   title = 'My Menu Works!';
+  fafilm
 }
