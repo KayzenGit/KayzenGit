@@ -1,9 +1,16 @@
+
+@font-face {
+  font-family: 'FarsiFont';
+  src: url('../WebFonts/OtherFont/pixelboy-BKoodakBold.ttf') format('truetype');
+  font-weight: normal;
+  font-size: medium;
+}
 div {
   background-color: whitesmoke;
 }
 
 p {
-  font: Helvetica, sans-serif;
+  font: 'FarsiFont';
   color: green;
-  font-size: 50px;
+  font-size: 30px;
 }/*# sourceMappingURL=header.component.css.map */

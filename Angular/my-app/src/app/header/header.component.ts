@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-title = 'My Header Works! ';
+title = 'سربرگ در حال استفاده است';
 nowDate = 'No time!!';
 }
