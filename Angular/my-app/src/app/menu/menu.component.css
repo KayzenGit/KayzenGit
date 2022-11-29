@@ -2,7 +2,52 @@
   font-family: 'FarsiFont';
   src: url("../WebFonts/OtherFont/pixelboy-BMitra.woff") format('woff');
 }
-#UL,ULsub {
+.MainMenuDiv
+{
+  width: 100%;
+  background-color: whitesmoke;
+}
+.itemMenuDiv {
+  display: inline-block;
+  position: relative;
+}
+.itemMenuButton {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 13px;
+  border: none;
+
+}
+.subMenuDiv {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.subMenuDiv a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.subMenuDiv a:hover
+ {
+   background-color: #ddd;
+  }
+.itemMenuDiv:hover .subMenuDiv
+{
+  display: block;
+}
+.itemMenuDiv:hover .itemMenuButton
+{
+  background-color: #3e8e41;
+}
+
+
+
+/*
+#UL {
   position: relative;
   list-style : none;
   text-decoration:none;
@@ -26,7 +71,7 @@ li a {
     text-decoration: none;
 }
 li ul {
-  display: none;
+  display: inline-flexbox;
 }
 li ul a:hover {
   position: relative;
@@ -45,4 +90,4 @@ li:hover {
  #UL li:not(:first-child):after {
   content: "";
 }
-
+ */
